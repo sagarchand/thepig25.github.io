@@ -1,7 +1,13 @@
 analytics.initialize({
-    'Google Analytics' : 'UA-46075882-1'
+    'Google Analytics' : {
+        trackingId              : 'UA-46075882-1',
+        universalClient         : false,
+        domain                  : 'http://thepig25.github.io/',
+        enhancedLinkAttribution : true,
+        siteSpeedSampleRate     : 5,
+        anonymizeIp             : true
+    }
 });
-
 analytics.identify('019mr8mf4r', {
     email   : 'CiaranHale@gmail.com',
     name    : 'Ciaran'
