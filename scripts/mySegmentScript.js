@@ -1,5 +1,5 @@
 analytics.initialize({
-    'Google Analytics' : 'UA-46075882-1',
+    'Google Analytics' : 'UA-46075882-1'
 });
 
 analytics.identify('019mr8mf4r', {
