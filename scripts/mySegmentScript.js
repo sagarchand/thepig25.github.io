@@ -15,7 +15,7 @@ analytics.identify('019mr8mf4r', {
 
 analytics.page('index.html Docs');
 
-var optusLink = $('.myOptusLink'); // with jQuery
+var optusLink = document.getElementById('myOptusLink');
 
 analytics.trackLink(optusLink, 'Clicked Optus Link', {
     plan : 'Iphone'
