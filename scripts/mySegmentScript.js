@@ -6,8 +6,14 @@ analytics.initialize({
         enhancedLinkAttribution : true,
         siteSpeedSampleRate     : 5,
         anonymizeIp             : true
+    },
+     'Mixpanel' : {
+        token   : '0071fe282ffd7a92ad4c1815a379d4d9',
+        nameTag : true,
+        people  : false
     }
 });
+
 analytics.identify('019mr8mf4r', {
     email   : 'CiaranHale@gmail.com',
     name    : 'Ciaran'
