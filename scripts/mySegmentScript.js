@@ -26,3 +26,10 @@ var optusLink = document.getElementById('myOptusLink');
 analytics.trackLink(optusLink, 'Clicked Optus Link', {
     plan : 'Iphone'
 });
+
+var clickedForm = document.getElementById('submitButton');
+var inputField = document.getElementById('textArea').value;
+
+analytics.track(clickedForm, 'Phone Color', {
+    chosenColor: inputField
+});
