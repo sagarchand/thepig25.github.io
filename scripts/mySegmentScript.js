@@ -30,6 +30,6 @@ analytics.trackLink(optusLink, 'Clicked Optus Link', {
 var clickedForm = document.getElementById('submitButton');
 var inputField = document.getElementById('textArea').value;
 
-analytics.trackLink(clickedForm, 'Phone Color', {
+analytics.trackLink(clickedForm, 'Phone Color Selection', {
     chosenColor: inputField
 });
